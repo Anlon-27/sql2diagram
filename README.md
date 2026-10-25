@@ -21,14 +21,6 @@
     <img src="https://img.shields.io/badge/Export-300_DPI-8b5cf6.svg?style=flat-square" alt="300 DPI Export" />
   </p>
 
-  <p>
-    <a href="https://drawlab.top/"><img src="https://img.shields.io/badge/Live_Demo-在线直接体验-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
-  </p>
-
-  <p>
-    🌐 <b>在线体验主站</b>：<a href="https://drawlab.top/"><strong>https://drawlab.top/</strong></a>（免安装 · 浏览器开箱即用）
-  </p>
-
   <br />
 
   <img src="public/screenshots/01-home-workspace.png" alt="sql2diagram 界面全景" width="94%" style="border-radius: 12px; box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.15); border: 1px solid #e2e8f0;" />
@@ -140,7 +132,7 @@
 
 ## ⚡ 30 秒快速体验（代码示例）
 
-无需任何前期准备，直接打开在线体验主站 👉 **[https://drawlab.top/](https://drawlab.top/)** ，在 **ER 属性图** 或 **学术三线表** 工作区中直接粘贴如下建表 SQL，即可即时体验：
+无需任何前期准备，在 **ER 属性图** 或 **学术三线表** 工作区中直接粘贴如下建表 SQL，即可即时体验：
 
 ```sql
 CREATE TABLE `student` (
