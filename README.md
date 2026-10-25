@@ -16,7 +16,7 @@
     <a href="https://github.com/Anlon-27/sql2diagram/stargazers"><img src="https://img.shields.io/github/stars/Anlon-27/sql2diagram?style=flat-square&color=2563eb" alt="GitHub Stars" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-f97316.svg?style=flat-square" alt="License" /></a>
     <img src="https://img.shields.io/badge/Pure_Frontend-100%25-10b981.svg?style=flat-square" alt="Pure Frontend" />
-    <img src="https://img.shields.io/badge/Vue-3.5-41b883.svg?style=flat-square&logo=vuedotjs" alt="Vue 3" />
+    <img src="https://img.shields.io/badge/Vue-3.5-41b883.svg?style=flat-square&logo=vue.js&logoColor=white" alt="Vue 3" />
     <img src="https://img.shields.io/badge/AntV-G6_4.8-1890ff.svg?style=flat-square" alt="AntV G6" />
     <img src="https://img.shields.io/badge/Export-300_DPI-8b5cf6.svg?style=flat-square" alt="300 DPI Export" />
   </p>
@@ -47,7 +47,7 @@
 
 ---
 
-## 📸 核心图表工作区预览（8 大规范图种）
+## 📸 核心图表工作区详解（8 大学术规范图种）
 
 <table border="0" width="100%">
   <tr>
@@ -74,31 +74,59 @@
       <sub>展现层、业务逻辑层、数据持久层、基础设施层清晰分层，预设微服务与 MVC 答辩架构模板。</sub>
     </td>
   </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="public/screenshots/06-flowchart.png" alt="业务流程图" style="border-radius: 8px; border: 1px solid #e5e7eb;" /><br/>
+      <b>📌 5. 业务与算法流程图（Flowchart 工作区）</b><br/>
+      <sub>标准规范图元：起止圆角框、处理矩形、分支判断菱形与流向标签，轻松表达算法流与审批流。</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="public/screenshots/07-usecase.png" alt="UML用例图" style="border-radius: 8px; border: 1px solid #e5e7eb;" /><br/>
+      <b>📌 6. UML 需求用例图（Use Case 工作区）</b><br/>
+      <sub>清晰勾勒系统边界、业务参与者（Actor）、功能用例气泡及 `&lt;&lt;include&gt;&gt;` / `&lt;&lt;extend&gt;&gt;` 关系。</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="public/screenshots/08-classdiagram.png" alt="UML类图" style="border-radius: 8px; border: 1px solid #e5e7eb;" /><br/>
+      <b>📌 7. UML 面向对象类图（Class Diagram 工作区）</b><br/>
+      <sub>三格标准类图规范（类名、属性字段、方法函数），支持类继承、接口实现、聚合与关联多重度。</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="public/screenshots/09-sequence.png" alt="UML时序图" style="border-radius: 8px; border: 1px solid #e5e7eb;" /><br/>
+      <b>📌 8. UML 交互时序图 / 顺序图（Sequence 工作区）</b><br/>
+      <sub>极简时序语法秒级排版，支持对象生命线、激活期、同步/异步消息传递及 alt/opt/loop 条件片段。</sub>
+    </td>
+  </tr>
 </table>
 
-### 全套毕设与软件工程图表生成矩阵：
+### 全套 8 大毕设与软件工程图表生成矩阵详解：
 
-1. **SQL 转 ER 属性图（陈氏模型）**：
+1. **SQL 转 ER 属性图（陈氏模型 / Chen's ER Model）**：
    - 智能语法分析：支持主流数据库 `CREATE TABLE` 脚本，自动提取表名实体与列名属性；
    - 严格学术标注：主键自动添加标准下划线，支持复合主键与自增字段识别；
    - 交互式拖拽：节点智能吸附、连线平滑防遮挡、字号与间距参数灵活可调。
-2. **总体 ER 图（全局实体关联关系）**：
+2. **总体 ER 图（全局实体关联关系 / G6 Overall ER）**：
    - 多表联合推导：从外键（Foreign Key）与关联字段自动推导表间联系；
    - 现代化视觉：基于 AntV G6 图引擎，透明磨砂网格画布，支持超大图视口缩放与平移。
-3. **学术三线表（GB/T 科技论文规范）**：
-   - 答辩必备：一键将数据表 DDL 转化为规范的学术三线表（顶线、底线、栏目线）；
+3. **学术三线表（GB/T 科技论文规范表格）**：
+   - 答辩必备：一键将数据表 DDL 转化为规范的学术三线表（顶线 1.5pt、底线 1.5pt、栏目线 0.75pt）；
    - 多样导出：支持高倍超清图片导出与结构化复制，直插 Word 完美契合版心。
-4. **系统分层架构图**：
+4. **系统分层架构图（软件工程架构设计）**：
    - 模块化拖拽布局：支持自由增删层级、调整模块顺序与连接拓扑线；
    - 学术科技美感：蓝白轻量配色，符合软件工程设计报告（SRS）与毕设论文正文审美。
-5. **业务流程图（Flowchart）**：
-   - 标准流图元：包含起始/结束框、业务处理框、判定条件菱形框、流向线与分支标签。
-6. **UML 用例图（Use Case）**：
-   - 参与者 Actor（小人图元）、系统边界矩形、业务用例椭圆及 `<<include>>` / `<<extend>>` 依赖关系。
-7. **UML 类图（Class Diagram）**：
-   - 规范三格类结构（类名、属性域、方法域），支持继承（泛化）、实现、聚合与关联多重度标记。
-8. **UML 时序图 / 顺序图（Sequence Diagram）**：
-   - 极简脚本语法驱动对象生命线与消息流传递，原生支持同步调用、异步返回及 `alt`/`opt`/`loop` 交互片段。
+5. **业务流程图（算法流程 / 审批流 / Flowchart）**：
+   - 标准流图元：包含起始/结束框、业务处理框、判定条件菱形框、流向线与分支条件标签；
+   - 自动排版对齐：解决手动对齐费时费力的问题，保证连线正交规范。
+6. **UML 用例图（需求分析 / Use Case Diagram）**：
+   - 包含参与者 Actor（小人图元）、系统边界矩形框、业务用例椭圆及用例包含关系；
+   - 论文需求分析章节专用，清晰表达各角色权限与操作场景。
+7. **UML 类图（面向对象建模 / Class Diagram）**：
+   - 规范三格类结构（类名、属性域、方法操作域）；
+   - 支持类继承（泛化）、接口实现、组合、聚合与关联多重度标记（1..*, 0..1）。
+8. **UML 时序图 / 顺序图（动态交互 / Sequence Diagram）**：
+   - 极简脚本语法驱动对象生命线与消息流传递；
+   - 原生支持同步调用、异步返回、激活期条块及 `alt` 条件分支、`loop` 循环交互片段。
 
 ---
 
