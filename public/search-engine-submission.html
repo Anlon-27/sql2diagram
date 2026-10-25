@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>搜索引擎提交说明 - Google、Bing、百度站长平台提交流程</title>
+  <meta name="description" content="整理 sitemap、robots 和 Google Search Console、Bing Webmaster、百度资源平台的站点提交建议。" />
+  <meta name="keywords" content="搜索引擎提交,sitemap提交,Google Search Console,Bing Webmaster,百度资源平台" />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://drawlab.top/search-engine-submission.html" />
+  <link rel="stylesheet" href="/guides/guide.css" />
+  <meta property="og:title" content="搜索引擎提交说明 - Google、Bing、百度站长平台提交流程" />
+  <meta property="og:description" content="整理 sitemap、robots 和 Google Search Console、Bing Webmaster、百度资源平台的站点提交建议。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://drawlab.top/search-engine-submission.html" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="在线图表工具" />
+  <meta property="og:image" content="https://drawlab.top/og-cover.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="搜索引擎提交说明 - Google、Bing、百度站长平台提交流程" />
+  <meta name="twitter:description" content="整理 sitemap、robots 和 Google Search Console、Bing Webmaster、百度资源平台的站点提交建议。" />
+  <meta name="twitter:image" content="https://drawlab.top/og-cover.png" />
+</head>
+<body>
+  <main class="container">
+    <div class="topbar"><a href="/">返回首页</a><a href="/guides/">教程中心</a></div>
+    <section class="hero">
+      <h1>搜索引擎提交说明</h1>
+      <p>站内已经可以提供 sitemap 和 robots，但真正提交到 Google、Bing 或百度站长平台，仍需要你用站点所有者账号手动完成验证与提交。</p>
+    </section>
+    <div class="grid">
+      <section class="card">
+        <h2>站内已经准备好的内容</h2>
+        <ul>
+          <li><a href="/sitemap.xml">sitemap.xml</a>：列出首页、工具页、教程页。</li>
+          <li><a href="/robots.txt">robots.txt</a>：允许抓取并指向 sitemap。</li>
+          <li>每个工具页与教程页都有独立 title、description、canonical 与正文内容。</li>
+        </ul>
+      </section>
+      <section class="card">
+        <h2>Google Search Console</h2>
+        <ol>
+          <li>登录 Search Console 并添加属性。</li>
+          <li>完成 DNS 或 HTML 文件验证。</li>
+          <li>在站点地图入口提交 <code>https://drawlab.top/sitemap.xml</code>。</li>
+          <li>后续关注覆盖率、抓取异常和增强结果报告。</li>
+        </ol>
+      </section>
+      <section class="card">
+        <h2>Bing Webmaster Tools</h2>
+        <ol>
+          <li>添加站点并完成验证。</li>
+          <li>提交 sitemap。</li>
+          <li>用 URL Inspection 检查关键工具页和教程页是否已收录。</li>
+        </ol>
+      </section>
+      <section class="card">
+        <h2>百度资源平台</h2>
+        <ol>
+          <li>添加站点并完成站点验证。</li>
+          <li>提交 sitemap 或使用主动推送。</li>
+          <li>优先推送首页、ER 图页、三线表页和教程中心。</li>
+        </ol>
+        <div class="notice">如果域名刚上线，先保证页面稳定可访问、内容持续更新，再做站长平台提交，收录会更顺一些。</div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

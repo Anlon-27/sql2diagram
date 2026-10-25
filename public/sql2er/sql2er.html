@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SQL/DBML2ER</title>
+    <style>
+      .header { display: none; }
+      .lang-switch { display: none; }
+      .app-container { max-width: none; padding: 0; height: 100%; background: transparent; }
+      html, body { height: 100%; margin: 0; background: transparent !important; }
+      body::before { display: none !important; }
+      #root { height: 100%; }
+    </style>
+    <script type="module" crossorigin src="/sql2er/assets/app-h5_lcdmd.js"></script>
+    <link rel="modulepreload" crossorigin href="/sql2er/assets/rolldown-runtime-C-57s9n3.js">
+    <link rel="modulepreload" crossorigin href="/sql2er/assets/layout-B1W7wDMc.js">
+    <link rel="modulepreload" crossorigin href="/sql2er/assets/vendor-antv-D5A5Bvuv.js">
+    <link rel="modulepreload" crossorigin href="/sql2er/assets/vendor-g6-Ia0E6wXy.js">
+    <link rel="modulepreload" crossorigin href="/sql2er/assets/vendor-editor-EJlqDL-Q.js">
+    <link rel="modulepreload" crossorigin href="/sql2er/assets/vendor-react-CSrkJejh.js">
+    <link rel="stylesheet" crossorigin href="/sql2er/assets/layout-CaK-_Dmf.css">
+    <link rel="stylesheet" crossorigin href="/sql2er/assets/app-B6zk7yrP.css">
+  </head>
+
+  <body>
+    <div
+      class="lang-switch"
+      data-lang="zh"
+      role="tablist"
+      aria-label="切换语言 / Switch language"
+    >
+      <button
+        type="button"
+        class="lang-option is-active"
+        data-lang="zh"
+        role="tab"
+        aria-selected="true"
+      >
+        中
+      </button>
+      <button
+        type="button"
+        class="lang-option"
+        data-lang="en"
+        role="tab"
+        aria-selected="false"
+      >
+        EN
+      </button>
+      <span class="lang-thumb" aria-hidden="true"></span>
+    </div>
+
+    <div class="app-container">
+      <div class="header">
+        <span class="header-eyebrow" data-i18n="eyebrow"
+          >Chen Model · Entity-Relationship</span
+        >
+        <h1 data-i18n-html="title">SQL / DBML 转 <em>ER 图</em> 生成器</h1>
+        <p data-i18n="subtitle">
+          把建表语句或 DBML 一键渲染为 Chen 模型实体-关系图
+        </p>
+        <p class="header-hint" data-i18n-html="hint">
+          <span class="header-hint-row"
+            >双击编辑节点 · 滚轮缩放 · Ctrl+滚轮旋转 · 拖拽排布</span
+          >
+          <span class="header-hint-row header-hint-row--secondary"
+            >Ctrl+Z 撤销 / Ctrl+Y 重做</span
+          >
+        </p>
+      </div>
+
+      <div id="root"></div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MySQL 建表语句生成 ER 图教程：课程设计与毕设常用方法</title>
+  <meta name="description" content="适合课程设计和毕业设计的 MySQL 建表语句生成 ER 图教程，包含注释整理、外键表达和导出建议。" />
+  <meta name="keywords" content="MySQL建表语句生成ER图,课程设计ER图,毕业设计ER图,数据库设计教程" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <link rel="canonical" href="https://drawlab.top/guides/mysql-create-table-to-er.html" />
+  <link rel="stylesheet" href="/guides/guide.css" />
+  <meta property="og:title" content="MySQL 建表语句生成 ER 图教程：课程设计与毕设常用方法" />
+  <meta property="og:description" content="适合课程设计和毕业设计的 MySQL 建表语句生成 ER 图教程，包含注释整理、外键表达和导出建议。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://drawlab.top/guides/mysql-create-table-to-er.html" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="在线图表工具" />
+  <meta property="og:image" content="https://drawlab.top/og/og-cover.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MySQL 建表语句生成 ER 图教程：课程设计与毕设常用方法" />
+  <meta name="twitter:description" content="适合课程设计和毕业设计的 MySQL 建表语句生成 ER 图教程，包含注释整理、外键表达和导出建议。" />
+  <meta name="twitter:image" content="https://drawlab.top/og/og-cover.png" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"MySQL 建表语句生成 ER 图教程","description":"适合课程设计和毕业设计的 MySQL 建表语句生成 ER 图教程，包含注释整理、外键表达和导出建议。","dateModified":"2026-04-19","datePublished":"2026-04-19","author":{"@type":"Organization","name":"在线图表工具"},"publisher":{"@type":"Organization","name":"在线图表工具"},"mainEntityOfPage":"https://drawlab.top/guides/mysql-create-table-to-er.html"}</script>
+</head>
+<body>
+  <main class="container">
+    <div class="topbar"><a href="/">返回首页</a><a href="/guides/">教程中心</a></div>
+    <article>
+      <header class="hero">
+        <h1>MySQL 建表语句生成 ER 图教程</h1>
+        <p>如果数据库已经按 MySQL 建好了表结构，最适合的工作流不是从零画图，而是把建表语句直接转成 ER 属性图，再做学术化整理。</p>
+      </header>
+      <div class="grid">
+        <section class="card"><h2>先准备哪些 SQL</h2><ul><li>每个核心表都保留完整字段定义</li><li>主键和外键尽量明确写出</li><li>COMMENT 尽量写中文，便于毕业设计直接复用</li><li>删除无关测试表，保证图面聚焦</li></ul></section><section class="card"><h2>外键关系怎么处理更清楚</h2><p>在教学和毕业设计场景里，ER 图不一定要完全照搬数据库实现细节，但至少要能看出实体之间的业务关联。比如订单表与用户表、订单表与商品表这类核心关系必须体现。</p><p>如果没有显式写外键，也可以先用字段命名保持一致，例如 user_id、order_id，再在生成后补充关系说明。</p></section><section class="card"><h2>适合课程设计的导出方式</h2><ol><li>答辩 PPT 优先导出 PNG。</li><li>需要二次排版就导出 draw.io。</li><li>数据库章节需要连续编号时，在 Word 中统一加图题。</li></ol></section><section class="card"><h2>一份好看的 ER 图标准</h2><ul><li>实体名称统一、字段注释完整</li><li>核心实体居中，附属实体适度分散</li><li>字体与线宽一致，避免过花配色</li><li>复杂度控制在老师能快速看懂的范围内</li></ul></section>
+      </div>
+      <section class="card">
+        <h2>相关入口</h2>
+        <div class="link-list"><a href="/er/">直接生成 ER 图</a><a href="/linetable/">把 SQL 转成三线表</a><a href="/guides/sql-to-er-diagram.html">查看总教程</a></div>
+      </section>
+      <footer>更新时间：2026-04-19 · 适合课程设计、毕业设计、系统分析与软件工程文档编写。</footer>
+    </article>
+  </main>
+</body>
+</html>

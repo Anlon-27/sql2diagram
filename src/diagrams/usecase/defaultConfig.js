@@ -1,0 +1,20 @@
+export const defaultConfig = {
+    CN_FONT_FAMILY: 'Microsoft YaHei, SimHei, sans-serif',
+    EN_FONT_FAMILY: 'Times New Roman, serif',
+    FONT_SIZE: 15,
+    FONT_WEIGHT: 500,
+    LINE_WIDTH: 2,
+    ACTOR_WIDTH: 66,
+    ACTOR_HEIGHT: 94,
+    ACTOR_GAP: 36,
+    ACTOR_SYSTEM_GAP: 54,
+    USECASE_MIN_WIDTH: 148,
+    USECASE_MIN_HEIGHT: 58,
+    USECASE_ROW_GAP: 24,
+    USECASE_COLUMN_GAP: 150,
+    SHOW_SYSTEM_BOUNDARY: true,
+    SHOW_SYSTEM_LABEL: true,
+    SYSTEM_PADDING_X: 54,
+    SYSTEM_PADDING_TOP: 24,
+    SYSTEM_PADDING_BOTTOM: 28
+};

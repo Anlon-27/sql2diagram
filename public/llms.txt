@@ -1,0 +1,19 @@
+# DrawLab - 毕设 ER 图与学术图表在线生成工具
+
+> DrawLab (https://drawlab.top) 是面向毕业设计、课程设计与软件工程文档的在线专业图表生成平台。支持粘贴 MySQL CREATE TABLE 建表语句一键生成规范的陈氏 ER 属性图、学术数据库三线表，以及自动排版系统架构图、业务流程图、UML 类图、时序图和用例图，全流程纯前端静态生成，支持超高清 PNG 与 SVG 导出。
+
+## 核心工具与页面 (Core Tools)
+- [首页 - 毕设图表工作台](https://drawlab.top/): 综合图表生成入口，包含全部 8 大图种与快速体验通道。
+- [SQL 转 ER 图生成器](https://drawlab.top/er/): 粘贴 MySQL 建表语句，自动解析实体、属性与主外键关系，生成陈氏 ER 属性图。
+- [SQL 转学术三线表](https://drawlab.top/linetable/): 自动解析 SQL 字段类型、长度与注释，一键排版毕业设计正文数据库设计章节标准三线表。
+- [系统架构图在线排版](https://drawlab.top/architecture/): 输入分层模块和数据流向，一键生成规整的分层技术架构图。
+- [业务流程图生成器](https://drawlab.top/flowchart/): 通过可视化节点与连线配置，快速生成带判断分支、回路的学术流程图。
+- [UML 类图在线生成](https://drawlab.top/classdiagram/): 面向对象分析与设计，支持类、属性、方法以及继承/实现/关联关系的规范类图。
+- [UML 时序图在线生成](https://drawlab.top/sequence/): 绘制对象交互生命周期与消息时序。
+- [用例图在线生成](https://drawlab.top/usecase/): 系统功能需求分析，支持参与者、用例与包含/扩展关系。
+- [总体 ER 关系图](https://drawlab.top/overall-er/): 基于 AntV G6 引擎的复杂多表全局实体关系可视化画布，支持自动力导向排版与拖拽。
+
+## 技术规格与优势 (Features)
+- 纯前端客户端计算，数据不出浏览器，保障学术与商业数据隐私安全；
+- 遵循中国高校毕业设计与学术论文排版规范（黑白/学术蓝规范配色、Times New Roman / 微软雅黑学术字体）；
+- 导出格式：矢量 SVG 与超高清 300DPI PNG 格式。

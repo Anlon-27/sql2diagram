@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>数据流图怎么画：DFD 的画法与毕业设计数据流图规范</title>
+  <meta name="description" content="数据流图（DFD）是系统分析阶段最常用的图表之一，本文介绍数据流图的四种基本元素、分层画法和课程设计数据流图画图规范。" />
+  <meta name="keywords" content="数据流图画法,DFD画法,数据流图示例,毕业设计数据流图,DFD分层图" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <link rel="canonical" href="https://drawlab.top/guides/dataflow-diagram-how-to-draw.html" />
+  <link rel="stylesheet" href="/guides/guide.css" />
+  <meta property="og:title" content="数据流图怎么画：DFD 的画法与毕业设计数据流图规范" />
+  <meta property="og:description" content="数据流图（DFD）是系统分析阶段最常用的图表之一，本文介绍数据流图的四种基本元素、分层画法和课程设计数据流图画图规范。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://drawlab.top/guides/dataflow-diagram-how-to-draw.html" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="在线图表工具" />
+  <meta property="og:image" content="https://drawlab.top/og/og-cover.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="数据流图怎么画：DFD 的画法与毕业设计数据流图规范" />
+  <meta name="twitter:description" content="数据流图（DFD）是系统分析阶段最常用的图表之一，本文介绍数据流图的四种基本元素、分层画法和课程设计数据流图画图规范。" />
+  <meta name="twitter:image" content="https://drawlab.top/og/og-cover.png" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"数据流图怎么画","description":"数据流图（DFD）是系统分析阶段最常用的图表之一，本文介绍数据流图的四种基本元素、分层画法和课程设计数据流图画图规范。","dateModified":"2026-05-24","datePublished":"2026-05-24","author":{"@type":"Organization","name":"在线图表工具"},"publisher":{"@type":"Organization","name":"在线图表工具"},"mainEntityOfPage":"https://drawlab.top/guides/dataflow-diagram-how-to-draw.html"}</script>
+</head>
+<body>
+  <main class="container">
+    <div class="topbar"><a href="/">返回首页</a><a href="/guides/">教程中心</a></div>
+    <article>
+      <header class="hero">
+        <h1>数据流图怎么画</h1>
+        <p>数据流图（Data Flow Diagram，DFD）是软件工程系统分析阶段的核心工具，用图形方式展示信息系统的输入、处理和输出关系。本文介绍 DFD 的基本元素、分层画法和毕业设计中的常见用法。</p>
+      </header>
+      <div class="grid">
+        <section class="card"><h2>四种基本元素</h2><ul><li><strong>外部实体</strong>（External Entity）— 系统之外的人或系统，如用户、管理员、第三方支付接口</li><li><strong>加工/处理</strong>（Process）— 对数据进行的操作或变换，如"验证账号""生成订单"</li><li><strong>数据存储</strong>（Data Store）— 系统内需要保存的数据，如"用户表""订单表"</li><li><strong>数据流</strong>（Data Flow）— 带箭头的连线，表达数据在各元素之间的流动方向</li></ul></section>
+        <section class="card"><h2>分层画法原则</h2><ol><li><strong>顶层图（上下文图）</strong>：把整个系统当作一个加工，只画外部实体和系统之间的数据流，明确系统边界</li><li><strong>中层图（0 层图）</strong>：将顶层图展开，把系统拆成主要功能模块，每个加工对应一个模块</li><li><strong>底层图（1 层图）</strong>：对中层图的每个加工进一步细化，直到每个加工的含义足够明确</li></ol></section>
+        <section class="card"><h2>毕业设计中的使用场景</h2><ul><li>在系统分析章节展示业务数据的来龙去脉</li><li>配合用例图和时序图，形成完整的 UML + DFD 分析文档</li><li>用顶层图说明系统与外部角色的交互边界</li></ul></section>
+        <section class="card"><h2>画图注意事项</h2><ul><li>数据流必须有来源和去向，不能有"悬挂"的箭头</li><li>每个加工必须有输入流和输出流</li><li>数据存储必须通过加工才能读写，外部实体不能直接操作存储</li><li>不要在图中画控制流（如"开始""结束"），那是流程图的事</li></ul></section>
+      </div>
+      <section class="card">
+        <h2>相关入口</h2>
+        <div class="link-list"><a href="/guides/dataflow-diagram-example-ecommerce.html">看电商平台 DFD 示例</a><a href="/guides/graduation-project-diagram-templates.html">毕业设计图表清单</a></div>
+      </section>
+      <footer>更新时间：2026-05-24 · 适合软件工程、系统分析与设计、课程设计和毕业设计文档编写。</footer>
+    </article>
+  </main>
+</body>
+</html>

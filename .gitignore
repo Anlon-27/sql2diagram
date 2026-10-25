@@ -1,0 +1,54 @@
+# ── Dependencies ──
+node_modules/
+sql_to_ER-master/node_modules/
+
+# ── Build output ──
+dist/
+sql_to_ER-master/dist/
+sql_to_ER-master/tsconfig.tsbuildinfo
+
+# ── Environment / secrets (never commit) ──
+.env
+.env.*
+
+# ── Runtime database (auto-created by license-server on startup) ──
+*.db
+*.db-journal
+*.sqlite
+
+# ── Logs ──
+*.log
+npm-debug.log*
+
+# ── Local tooling (machine-specific, not project source) ──
+.claude/
+.agents/
+.playwright-cli/
+docs/superpowers/
+skills/
+AGENTS.md
+CLAUDE.md
+SEO-SUBMISSION-GUIDE.md
+
+# ── Dev / test artifacts ──
+output/
+output-*.png
+
+# ── Deployment archives (backend source snapshots for production upload) ──
+license-server/*.zip
+
+# ── OS / editor ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+release-sql2diagram/
+.tmp-deploy/
+dist-fresh.tar.gz
+
+# ── Additional sensitive / proprietary files ──
+软工毕设画图神器推荐.md
+screenshots/
+scripts/take-screenshots.cjs
+scripts/take-screenshots.js
+scripts/obfuscate-release.mjs

@@ -1,0 +1,14 @@
+{
+  "name": "license-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  },
+  "scripts": {
+    "dev": "node proxy.js",
+    "test": "node --test tests/*.test.mjs",
+    "migrate": "node scripts/run-migrations.mjs"
+  }
+}

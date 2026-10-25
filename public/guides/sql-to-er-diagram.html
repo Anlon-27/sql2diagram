@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SQL 转 ER 图怎么做？建表语句一键生成 ER 属性图教程</title>
+  <meta name="description" content="讲清楚 SQL 转 ER 图的步骤、注意事项和毕业设计使用方式，适合 MySQL 建表语句快速生成 ER 属性图。" />
+  <meta name="keywords" content="SQL转ER图,建表语句生成ER图,ER属性图教程,MySQL ER图" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <link rel="canonical" href="https://drawlab.top/guides/sql-to-er-diagram.html" />
+  <link rel="stylesheet" href="/guides/guide.css" />
+  <meta property="og:title" content="SQL 转 ER 图怎么做？建表语句一键生成 ER 属性图教程" />
+  <meta property="og:description" content="讲清楚 SQL 转 ER 图的步骤、注意事项和毕业设计使用方式，适合 MySQL 建表语句快速生成 ER 属性图。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://drawlab.top/guides/sql-to-er-diagram.html" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="在线图表工具" />
+  <meta property="og:image" content="https://drawlab.top/og/og-cover.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SQL 转 ER 图怎么做？建表语句一键生成 ER 属性图教程" />
+  <meta name="twitter:description" content="讲清楚 SQL 转 ER 图的步骤、注意事项和毕业设计使用方式，适合 MySQL 建表语句快速生成 ER 属性图。" />
+  <meta name="twitter:image" content="https://drawlab.top/og/og-cover.png" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"SQL 转 ER 图怎么做：从建表语句到毕业设计插图","description":"讲清楚 SQL 转 ER 图的步骤、注意事项和毕业设计使用方式，适合 MySQL 建表语句快速生成 ER 属性图。","dateModified":"2026-04-19","datePublished":"2026-04-19","author":{"@type":"Organization","name":"在线图表工具"},"publisher":{"@type":"Organization","name":"在线图表工具"},"mainEntityOfPage":"https://drawlab.top/guides/sql-to-er-diagram.html"}</script>
+</head>
+<body>
+  <main class="container">
+    <div class="topbar"><a href="/">返回首页</a><a href="/guides/">教程中心</a></div>
+    <article>
+      <header class="hero">
+        <h1>SQL 转 ER 图怎么做：从建表语句到毕业设计插图</h1>
+        <p>很多同学已经写好了 CREATE TABLE，却还在用 draw.io 手动画 ER 图。更高效的方式是先让 SQL 决定实体和属性，再把图整理成毕业设计里能直接使用的版本。</p>
+      </header>
+      <div class="grid">
+        <section class="card"><h2>为什么建议直接从 SQL 生成</h2><p>SQL 已经包含表名、字段、主键、外键和注释，这些信息本身就是 ER 图的核心内容。直接从 SQL 生成，能避免重复劳动，也不容易漏字段。</p><ul><li>字段多时不需要手工重录</li><li>结构变化后重新粘贴 SQL 就能更新</li><li>更适合毕设后期多次修改数据库设计</li></ul></section><section class="card"><h2>实际操作步骤</h2><ol><li>整理好 MySQL 风格 CREATE TABLE 语句并尽量保留 COMMENT。</li><li>进入 ER 图工具页，粘贴 SQL 或上传 .sql 文件。</li><li>检查实体和字段说明，必要时直接在图中修正。</li><li>调整样式后导出 PNG 或 draw.io。</li></ol><div class="notice">如果字段注释缺失，可以先用页面里的 DeepSeek v4 Flash 补全，再人工微调核心业务字段。</div></section><section class="card"><h2>毕业设计里怎么写更自然</h2><p>ER 图通常出现在数据库设计章节。建议正文先说明系统的核心实体和实体间关系，再插入图示。图下可写“系统数据库 ER 属性图”或“核心实体关系图”。</p><p>如果导师更关注规范性，可以导出 draw.io 继续微调图名、编号与页边距；如果更重效率，直接导出 PNG 插入 Word 通常已经够用。</p></section><section class="card"><h2>容易踩坑的地方</h2><ul><li>SQL 使用非常规写法时，先简化为常见 MySQL 结构。</li><li>字段注释为空时，图面信息会不足，建议补齐中文说明。</li><li>实体过多时按模块拆分，不要一张图塞完整个系统。</li></ul></section>
+      </div>
+      <section class="card">
+        <h2>相关入口</h2>
+        <div class="link-list"><a href="/er/">打开 SQL 转 ER 图工具</a><a href="/guides/mysql-create-table-to-er.html">继续看 MySQL 建表语句教程</a><a href="/guides/graduation-project-diagram-templates.html">查看毕设图表清单</a></div>
+      </section>
+      <footer>更新时间：2026-04-19 · 适合课程设计、毕业设计、系统分析与软件工程文档编写。</footer>
+    </article>
+  </main>
+</body>
+</html>

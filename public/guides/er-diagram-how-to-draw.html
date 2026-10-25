@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ER 图怎么画更规范？毕业设计与课程设计常见画法总结</title>
+  <meta name="description" content="总结 ER 图在课程设计、毕业设计和数据库设计中的规范画法，适合第一次写数据库章节的同学。" />
+  <meta name="keywords" content="ER图怎么画,ER图规范,毕业设计ER图,课程设计数据库图" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <link rel="canonical" href="https://drawlab.top/guides/er-diagram-how-to-draw.html" />
+  <link rel="stylesheet" href="/guides/guide.css" />
+  <meta property="og:title" content="ER 图怎么画更规范？毕业设计与课程设计常见画法总结" />
+  <meta property="og:description" content="总结 ER 图在课程设计、毕业设计和数据库设计中的规范画法，适合第一次写数据库章节的同学。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://drawlab.top/guides/er-diagram-how-to-draw.html" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:site_name" content="在线图表工具" />
+  <meta property="og:image" content="https://drawlab.top/og/og-cover.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ER 图怎么画更规范？毕业设计与课程设计常见画法总结" />
+  <meta name="twitter:description" content="总结 ER 图在课程设计、毕业设计和数据库设计中的规范画法，适合第一次写数据库章节的同学。" />
+  <meta name="twitter:image" content="https://drawlab.top/og/og-cover.png" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"ER 图怎么画更规范","description":"总结 ER 图在课程设计、毕业设计和数据库设计中的规范画法，适合第一次写数据库章节的同学。","dateModified":"2026-04-19","datePublished":"2026-04-19","author":{"@type":"Organization","name":"在线图表工具"},"publisher":{"@type":"Organization","name":"在线图表工具"},"mainEntityOfPage":"https://drawlab.top/guides/er-diagram-how-to-draw.html"}</script>
+</head>
+<body>
+  <main class="container">
+    <div class="topbar"><a href="/">返回首页</a><a href="/guides/">教程中心</a></div>
+    <article>
+      <header class="hero">
+        <h1>ER 图怎么画更规范</h1>
+        <p>很多同学不是不会画 ER 图，而是不确定怎样画才更像毕业设计里的正式版本。下面把规范感最强、最容易通过老师检查的做法整理在一起。</p>
+      </header>
+      <div class="grid">
+        <section class="card"><h2>ER 图里必须出现什么</h2><ul><li>实体名称</li><li>实体属性</li><li>主键或标识字段</li><li>实体间的核心业务关系</li><li>必要的中文说明</li></ul></section><section class="card"><h2>什么情况不建议塞进去</h2><ul><li>所有日志表和临时表</li><li>纯技术性辅助字段过多展开</li><li>和业务无关的测试数据结构</li><li>一张图里强行表达全部模块</li></ul><div class="notice">ER 图的目标是帮助老师理解数据库设计，不是展示你有多少张表。</div></section><section class="card"><h2>排版建议</h2><p>优先使用黑白或低饱和度风格，字体统一，线宽统一，实体框之间留足可读空间。对毕业设计来说，整洁比炫酷更重要。</p><p>如果一张图太挤，可以按模块拆成几张子图。</p></section><section class="card"><h2>推荐做法</h2><ol><li>先用 SQL 自动生成初稿。</li><li>保留核心实体，删掉噪声表。</li><li>补齐中文注释和关键关系说明。</li><li>导出图片插入毕业设计并统一图题。</li></ol></section>
+      </div>
+      <section class="card">
+        <h2>相关入口</h2>
+        <div class="link-list"><a href="/er/">打开 ER 图工具</a><a href="/guides/sql-to-er-diagram.html">看 SQL 转 ER 图流程</a><a href="/guides/graduation-project-diagram-templates.html">看毕设图表模板</a></div>
+      </section>
+      <footer>更新时间：2026-04-19 · 适合课程设计、毕业设计、系统分析与软件工程文档编写。</footer>
+    </article>
+  </main>
+</body>
+</html>

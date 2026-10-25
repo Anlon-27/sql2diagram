@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /search-engine-submission.html
+
+# AI Agent Documentation
+# https://drawlab.top/llms.txt
+
+Sitemap: https://drawlab.top/sitemap.xml

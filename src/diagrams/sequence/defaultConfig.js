@@ -1,0 +1,17 @@
+﻿export const defaultConfig = {
+    CN_FONT_FAMILY: 'Microsoft YaHei, SimHei, sans-serif',
+    EN_FONT_FAMILY: 'Times New Roman, serif',
+    FONT_SIZE: 14,
+    FONT_WEIGHT: 500,
+    TITLE_FONT_SIZE: 20,
+    TITLE_FONT_WEIGHT: 700,
+    LINE_WIDTH: 1,
+    PARTICIPANT_MIN_WIDTH: 120,
+    PARTICIPANT_HEAD_HEIGHT: 58,
+    PARTICIPANT_GAP: 76,
+    MESSAGE_ROW_HEIGHT: 46,
+    ROW_GAP: 18,
+    SELF_LOOP_WIDTH: 64,
+    SELF_LOOP_HEIGHT: 36,
+    NOTE_MAX_WIDTH: 240
+};
