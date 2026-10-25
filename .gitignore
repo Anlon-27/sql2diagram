@@ -48,7 +48,7 @@ dist-fresh.tar.gz
 
 # ── Additional sensitive / proprietary files ──
 软工毕设画图神器推荐.md
-screenshots/
+/screenshots/
 scripts/take-screenshots.cjs
 scripts/take-screenshots.js
 scripts/obfuscate-release.mjs

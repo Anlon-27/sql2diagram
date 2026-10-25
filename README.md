@@ -1,7 +1,7 @@
 # sql2diagram - 专为毕业设计与学术论文打造的在线绘图工具箱 🎓📊
 
 <p align="center">
-  <img src="public/og/og-cover.png" alt="sql2diagram Cover" width="80%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
+  <img src="public/screenshots/01-home-workspace.png" alt="sql2diagram Cover" width="85%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);" />
 </p>
 
 <p align="center">
@@ -60,12 +60,12 @@
 
 <table border="0">
   <tr>
-    <td width="50%"><img src="public/og/og-er.png" alt="ER属性图" /><br/><b>📌 学术标准 ER 属性图</b></td>
-    <td width="50%"><img src="public/og/og-overall-er.png" alt="全局ER图" /><br/><b>📌 全局实体关联图</b></td>
+    <td width="50%"><img src="public/screenshots/02-er-workspace.png" alt="ER属性图" /><br/><b>📌 学术标准 ER 属性图</b></td>
+    <td width="50%"><img src="public/screenshots/03-overall-er.png" alt="全局ER图" /><br/><b>📌 全局实体关联图</b></td>
   </tr>
   <tr>
-    <td width="50%"><img src="public/og/og-linetable.png" alt="学术三线表" /><br/><b>📌 学术标准三线表</b></td>
-    <td width="50%"><img src="public/og/og-architecture.png" alt="系统架构图" /><br/><b>📌 系统分层架构图</b></td>
+    <td width="50%"><img src="public/screenshots/04-linetable.png" alt="学术三线表" /><br/><b>📌 学术标准三线表</b></td>
+    <td width="50%"><img src="public/screenshots/05-architecture.png" alt="系统架构图" /><br/><b>📌 系统分层架构图</b></td>
   </tr>
 </table>
 
