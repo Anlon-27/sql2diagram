@@ -13,7 +13,7 @@
 </p>
 
 [![GitHub Stars](https://img.shields.io/github/stars/Anlon-27/sql2diagram?style=flat-square&color=blue)](https://github.com/Anlon-27/sql2diagram/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-orange.svg?style=flat-square)](LICENSE)
 [![Vue 3](https://img.shields.io/badge/Vue-3.5-brightgreen?style=flat-square&logo=vuedotjs)](https://vuejs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.0-purple?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![AntV G6](https://img.shields.io/badge/AntV-G6_4.8-1890FF?style=flat-square)](https://g6.antv.vision/)
@@ -215,6 +215,9 @@ npm run build
 
 ---
 
-## 📄 开源许可证
+## 📄 开源许可证（严格禁止商用）
 
-本项目基于 [MIT License](LICENSE) 协议开源。
+本项目遵循 **[CC BY-NC-SA 4.0 (署名-非商业性使用-相同方式共享 4.0 国际版)](LICENSE)** 开源许可协议：
+
+- ✅ **学术与个人免费**：个人学习、高校科研、毕业设计论文排版及答辩出图等**非商业用途完全免费**；
+- ❌ **严格禁止商业化**：未经原作者书面许可，**严禁将本项目源码、打包制品用于任何直接或间接的商业营利活动**（包括但不限于封装为收费软件/SaaS 服务、在淘宝/闲鱼等电商平台倒卖转售、用于商业交付或商业培训收费等）。如需商业授权或定制合作，须取得原作者书面同意。
