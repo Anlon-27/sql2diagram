@@ -1,26 +1,29 @@
 <div align="center">
 
-# 📊 sql2diagram
+  <img src="public/favicon.svg" alt="sql2diagram logo" width="56" height="56" />
 
-**专为毕业设计与学术论文打造的在线规范绘图工具箱**
+  <h1>sql2diagram</h1>
 
-<p>
-  <b>免安装 · 100% 纯前端离线计算 · 论文标准图表一键生成 · 300DPI 矢量导出</b>
-</p>
+  <p>
+    <b>专为毕业设计与学术论文打造的在线规范绘图工具箱</b>
+  </p>
 
-<p align="center">
-  <code>SQL转ER图</code> · <code>学术三线表</code> · <code>系统架构图</code> · <code>陈氏ER属性图</code> · <code>总体ER图</code> · <code>UML类图</code> · <code>时序图/顺序图</code> · <code>用例图</code> · <code>业务流程图</code> · <code>毕设画图神器</code>
-</p>
+  <p>
+    SQL 一键转陈氏 ER 图 &nbsp;·&nbsp; 国标学术三线表 &nbsp;·&nbsp; 软件系统分层架构图 &nbsp;·&nbsp; UML 全套规范建模
+  </p>
 
-[![GitHub Stars](https://img.shields.io/github/stars/Anlon-27/sql2diagram?style=flat-square&color=blue)](https://github.com/Anlon-27/sql2diagram/stargazers)
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-orange.svg?style=flat-square)](LICENSE)
-[![Vue 3](https://img.shields.io/badge/Vue-3.5-brightgreen?style=flat-square&logo=vuedotjs)](https://vuejs.org/)
-[![Vite](https://img.shields.io/badge/Vite-7.0-purple?style=flat-square&logo=vite)](https://vitejs.dev/)
-[![AntV G6](https://img.shields.io/badge/AntV-G6_4.8-1890FF?style=flat-square)](https://g6.antv.vision/)
+  <p>
+    <a href="https://github.com/Anlon-27/sql2diagram/stargazers"><img src="https://img.shields.io/github/stars/Anlon-27/sql2diagram?style=flat-square&color=2563eb" alt="GitHub Stars" /></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-f97316.svg?style=flat-square" alt="License" /></a>
+    <img src="https://img.shields.io/badge/Pure_Frontend-100%25-10b981.svg?style=flat-square" alt="Pure Frontend" />
+    <img src="https://img.shields.io/badge/Vue-3.5-41b883.svg?style=flat-square&logo=vuedotjs" alt="Vue 3" />
+    <img src="https://img.shields.io/badge/AntV-G6_4.8-1890ff.svg?style=flat-square" alt="AntV G6" />
+    <img src="https://img.shields.io/badge/Export-300_DPI-8b5cf6.svg?style=flat-square" alt="300 DPI Export" />
+  </p>
 
-<br />
+  <br />
 
-<img src="public/screenshots/01-home-workspace.png" alt="sql2diagram 首页全景" width="92%" style="border-radius: 10px; box-shadow: 0 8px 30px rgba(0,0,0,0.12);" />
+  <img src="public/screenshots/01-home-workspace.png" alt="sql2diagram 界面全景" width="94%" style="border-radius: 12px; box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.15); border: 1px solid #e2e8f0;" />
 
 </div>
 
@@ -44,29 +47,29 @@
 
 ---
 
-## 📸 核心图表工作区详解（8 大学术规范图种）
+## 📸 核心图表工作区预览（8 大规范图种）
 
-<table border="0">
+<table border="0" width="100%">
   <tr>
-    <td width="50%">
-      <img src="public/screenshots/02-er-workspace.png" alt="SQL转ER图" /><br/>
+    <td width="50%" align="center">
+      <img src="public/screenshots/02-er-workspace.png" alt="SQL转ER图" style="border-radius: 8px; border: 1px solid #e5e7eb;" /><br/>
       <b>📌 1. 学术标准陈氏 ER 属性图（SQL 转 ER 图）</b><br/>
       <sub>直接粘贴 MySQL/PostgreSQL DDL，智能拆解实体矩形、属性椭圆、主键自动加粗下划线标注。</sub>
     </td>
-    <td width="50%">
-      <img src="public/screenshots/03-overall-er.png" alt="总体ER图" /><br/>
+    <td width="50%" align="center">
+      <img src="public/screenshots/03-overall-er.png" alt="总体ER图" style="border-radius: 8px; border: 1px solid #e5e7eb;" /><br/>
       <b>📌 2. 总体 ER 图（AntV G6 多表全局实体关联图）</b><br/>
       <sub>支持多张建表 SQL 批量导入，力导向算法自动排版多表间的一对多 (1:N)、多对多 (M:N) 拓扑。</sub>
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <img src="public/screenshots/04-linetable.png" alt="学术三线表" /><br/>
+    <td width="50%" align="center">
+      <img src="public/screenshots/04-linetable.png" alt="学术三线表" style="border-radius: 8px; border: 1px solid #e5e7eb;" /><br/>
       <b>📌 3. 国家标准学术三线表（论文数据库表结构设计）</b><br/>
       <sub>自动提取字段名、数据类型、中文注释与主键，顶底粗线(1.5pt)、栏目细线(0.75pt)，严禁多余竖线。</sub>
     </td>
-    <td width="50%">
-      <img src="public/screenshots/05-architecture.png" alt="系统架构图" /><br/>
+    <td width="50%" align="center">
+      <img src="public/screenshots/05-architecture.png" alt="系统架构图" style="border-radius: 8px; border: 1px solid #e5e7eb;" /><br/>
       <b>📌 4. 软件工程系统分层架构图（系统架构设计）</b><br/>
       <sub>展现层、业务逻辑层、数据持久层、基础设施层清晰分层，预设微服务与 MVC 答辩架构模板。</sub>
     </td>
@@ -76,8 +79,8 @@
 ### 全套毕设与软件工程图表生成矩阵：
 
 1. **SQL 转 ER 属性图（陈氏模型）**：
-   - 智能语法分析：支持 `CREATE TABLE` 脚本，自动提取表名实体与列名属性；
-   - 严格学术标注：主键自动添加标准下划线，支持复合主键与自增注释；
+   - 智能语法分析：支持主流数据库 `CREATE TABLE` 脚本，自动提取表名实体与列名属性；
+   - 严格学术标注：主键自动添加标准下划线，支持复合主键与自增字段识别；
    - 交互式拖拽：节点智能吸附、连线平滑防遮挡、字号与间距参数灵活可调。
 2. **总体 ER 图（全局实体关联关系）**：
    - 多表联合推导：从外键（Foreign Key）与关联字段自动推导表间联系；
@@ -87,13 +90,13 @@
    - 多样导出：支持高倍超清图片导出与结构化复制，直插 Word 完美契合版心。
 4. **系统分层架构图**：
    - 模块化拖拽布局：支持自由增删层级、调整模块顺序与连接拓扑线；
-   - 学术科技美感：蓝白轻量配色，符合软工设计报告（SRS）与毕设论文正文审美。
+   - 学术科技美感：蓝白轻量配色，符合软件工程设计报告（SRS）与毕设论文正文审美。
 5. **业务流程图（Flowchart）**：
    - 标准流图元：包含起始/结束框、业务处理框、判定条件菱形框、流向线与分支标签。
 6. **UML 用例图（Use Case）**：
    - 参与者 Actor（小人图元）、系统边界矩形、业务用例椭圆及 `<<include>>` / `<<extend>>` 依赖关系。
 7. **UML 类图（Class Diagram）**：
-   - 规范三格类结构（类名、属性域、方法操作），支持继承（泛化）、实现、聚合与关联多重度标记。
+   - 规范三格类结构（类名、属性域、方法域），支持继承（泛化）、实现、聚合与关联多重度标记。
 8. **UML 时序图 / 顺序图（Sequence Diagram）**：
    - 极简脚本语法驱动对象生命线与消息流传递，原生支持同步调用、异步返回及 `alt`/`opt`/`loop` 交互片段。
 
@@ -121,21 +124,6 @@ CREATE TABLE `student` (
 - **SQL 转 ER 图**：自动识别实体为 **学生**，字段属性椭圆环绕，主键 `id` 自动渲染学术下划线；
 - **学术三线表**：自动排版为标准的国标四列/五列三线表格，线宽严格符合规范；
 - **高清导出**：右上角一键导出 300DPI PNG 或 SVG，直接插入 Word 毫无毛边。
-
----
-
-## 🔍 核心检索词与覆盖场景（Keywords & Scenarios）
-
-本工具深度覆盖高校计算机与软工相关场景，支持快速检索与解决：
-
-* 🎓 **毕设论文与答辩场景**：
-  `毕业论文画图神器`、`计算机毕设绘图`、`软件工程答辩图表`、`开题报告架构图`、`数据库设计说明书`、`毕设答辩PPT图表`
-* 🗄️ **数据库与 ER 建模场景**：
-  `SQL转ER图`、`SQL一键生成ER图`、`MySQL建表语句转ER图`、`陈氏ER图在线制作`、`实体属性关系图`、`总体ER图生成器`、`DDL逆向ER图`
-* 📋 **学术表格排版场景**：
-  `学术三线表`、`论文三线表生成器`、`SQL转三线表`、`国标三线表GB/T`、`数据库结构表排版`、`Word三线表快速制作`
-* 🏗️ **系统架构与 UML 建模场景**：
-  `系统架构图在线生成`、`软件分层架构图`、`微服务架构拓扑图`、`三层架构图`、`UML类图在线绘制`、`UML时序图生成器`、`UML用例图工具`、`业务流程图排版`
 
 ---
 
