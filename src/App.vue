@@ -76,7 +76,7 @@
       </main>
 
       <footer class="site-footer">
-        © {{ currentYear }} 然构万物. 保留所有权利.
+        © {{ currentYear }} sql2diagram. 保留所有权利.
       </footer>
     </template>
 
