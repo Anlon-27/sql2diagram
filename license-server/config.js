@@ -38,7 +38,7 @@ export function getConfig(env = process.env) {
     databaseUrl: env.DATABASE_URL ?? '',
     adminToken: env.ADMIN_TOKEN ?? '',
     xianyuUrl: env.XIANYU_URL ?? '',
-    freeLimit: Number.parseInt(env.FREE_LIMIT ?? '20', 10),
+    freeLimit: Number.parseInt(env.FREE_LIMIT ?? '1000', 10),
   }
 }
 

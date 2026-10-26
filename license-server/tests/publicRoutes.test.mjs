@@ -281,7 +281,7 @@ test('redeemed device stays licensed for access-status and generate-check', asyn
   })
 })
 
-test('server defaults guest free limit to 20 when config does not override it', async () => {
+test('server defaults guest free limit to 1000 when config does not override it', async () => {
   const { createServer } = await importModule('proxy.js')
 
   const server = createServer(createTestConfig())
@@ -291,8 +291,8 @@ test('server defaults guest free limit to 20 when config does not override it', 
     assert.equal(response.status, 200)
 
     const payload = await response.json()
-    assert.equal(payload.generateFreeLimit, 20)
-    assert.equal(payload.generateRemaining, 20)
+    assert.equal(payload.generateFreeLimit, 1000)
+    assert.equal(payload.generateRemaining, 1000)
     assert.equal(payload.generateUsed, 0)
   })
 })

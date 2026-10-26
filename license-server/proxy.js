@@ -163,7 +163,7 @@ function createDefaultDeps(config) {
   const guestUsageDb = createGuestUsageDb(db)
   const guestIpUsageDb = createGuestIpUsageDb(db)
   const licenseDb = createLicenseDb(db)
-  const freeLimit = Number(config.freeLimit ?? 20)
+  const freeLimit = Number(config.freeLimit ?? 1000)
 
   function getPeriodKey(now = new Date()) {
     return now.toISOString().slice(0, 10)
